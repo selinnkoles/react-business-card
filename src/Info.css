@@ -1,0 +1,92 @@
+#info {
+  background-color: #1a1b21;
+  text-align: center;
+}
+#info > img {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+#info > img:hover {
+  transform: scale(1.03);
+}
+.name {
+  background-color: transparent;
+  font-weight: 900;
+  color: #dcdcdc;
+  font-family: "Franklin Gothic";
+  font-size: 24px;
+  margin: 10px 0 4px 0;
+}
+.email-button,
+.linkedin-button {
+  flex: 1;
+  max-width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.email-button {
+  background-color: #d1d5db;
+  border: 1px solid #d1d5db;
+}
+.email-button:hover {
+  background-color: #c0c4ca;
+}
+.linkedin-button {
+  background-color: #5093e2;
+  border: none;
+}
+.linkedin-button:hover {
+  background-color: #3b7ec3;
+}
+.buttons {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.interests-text {
+  font-weight: lighter;
+  color: #dcdcdc;
+  font-family: "Franklin Gothic";
+  font-size: 10.24px;
+}
+#role {
+  font-size: 12px;
+  background-color: transparent;
+  color: #f3bf99;
+  margin-bottom: 6px;
+  font-weight: 400;
+  font-family: "Franklin Gothic";
+}
+#email {
+  background-color: transparent;
+  font-family: "Franklin Gothic";
+  color: #dcdcdc;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+#text-Email {
+  font-size: 10.24px;
+  font-weight: 500;
+  background-color: transparent;
+  color: #374151;
+}
+#text-Linkedin {
+  color: white;
+  font-size: 10.24px;
+  font-weight: 500;
+  background-color: transparent;
+}
