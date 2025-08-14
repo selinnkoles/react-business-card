@@ -17,4 +17,4 @@ Kartvizit, bir kişinin profil fotoğrafını, adını, unvanını, iletişim bi
 - **CSS3**
 - **HTML5**
   
-![Proje Önizleme](./src/assets/business-card-screenshot.png)
+![Proje Önizleme](./src/assets/bussiness-card-screenshot.png)
