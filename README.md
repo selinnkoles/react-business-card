@@ -1,12 +1,32 @@
-# React + Vite
+# React Business Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React kullanılarak geliştirilmiş basit ve şık bir **dijital kartvizit** uygulamasıdır.  
+Kartvizit, bir kişinin profil fotoğrafını, adını, unvanını, iletişim bilgilerini ve kısa açıklamalarını gösterir.
 
-Currently, two official plugins are available:
+## 🎯 Özellikler
+- Profil fotoğrafı ve isim
+- Meslek/unvan bilgisi
+- E-posta ve LinkedIn butonları
+- "About" ve "Interests" bölümleri
+- Responsive ve modern tasarım
+- Temiz CSS ile özelleştirilmiş stil
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Kullanılan Teknolojiler
+- **React** (Vite ile oluşturuldu)
+- **JavaScript (ES6+)**
+- **CSS3**
+- **HTML5**
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Proje Yapısı
+├── src
+│ ├── About.jsx # Hakkında bileşeni
+│ ├── About.css
+│ ├── Info.jsx # Profil bilgileri bileşeni
+│ ├── Info.css
+│ ├── Interests.jsx # İlgi alanları bileşeni
+│ ├── Interests.css
+│ ├── Footer.jsx 
+│ ├── Footer.css
+│ ├── index.css # Genel stiller
+│ ├── main.jsx # Ana giriş noktası
+│ └── assets/ # Görseller (profil, ikonlar vb.)
